@@ -1,0 +1,16 @@
+/* Styling for voting on proposals*/
+.rating {
+  background: image-url("star.png") 0 0;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  float: left;
+
+  &.bright {
+    background-image: image-url("star-bright.png");
+  }
+
+  &.glow {
+    background-image: image-url("star-glow.png");
+  }
+}
